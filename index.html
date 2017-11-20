@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial scale=1">
+	<title>Вход в административный интерфейс онлайн-консультанта Webim</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/style.less">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	
+</head>
+<body>
+	<script src="https://code.jquery.com/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<header>
+		<nav class="navbar navbar-default" role="navigation">
+
+		<div class="container">
+
+				<div class="navbar-header">
+
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+					
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+
+					</button>
+
+					<a href="https://webim.ru/" target="_blank"><img src="image/logo_100x80.png" alt="Webim.ru"></a>
+
+				</div>
+
+			<div class="collapse navbar-collapse" id="navbar-collapse">
+
+				<div class="nav navbar-nav navbar-right">
+					<a href="#" class="btn navbar-btn btn-primary" role="button">Вход в систему</a>
+					<a href="#" class="btn navbar-btn btn-primary" role="button">Регистрация</a>
+					<div class="btn-group ">
+
+						<button class="btn btn-default dropdown-toggle" data-toggle="dropdown"> RU <span class="caret"></span>
+						</button>
+
+						<ul class="dropdown-menu" role="menu">
+							<li><a href="#"><span class="EN" title="EN"></span>  EN</a></li>
+							<li><a href="#"><span class="HE" title="HE"></span>  HE</a></li>
+							<li class="divider"></li>
+							<li><a href="#"><span class="RU" title="RU"></span>  RU</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+
+	</nav>
+		<div class="container form-section">
+			<div class="info-block">
+
+				<div class="info-block-top">Для максимального удобства </br>мы рекомендуем использовать приложение:
+					<p>
+						<a class="btn btn-default btn-md webim-btn" data-toggle="collapse" href="#collapseWebim" aria-expanded="false" aria-controls="collapseWebim">
+						    Webim Трей
+						</a>
+					</p>
+					<div class="collapse" id="collapseWebim">
+						<div class="card card-body">
+					    	<a href="http://webim.ru/pro/tray/" class="btn btn-primary btn-sm" role="button">Скачать приложение Webim Трей</a>
+						</div>
+					</div>	
+				</div>
+
+
+			</div>
+
+			<div class="form-block">
+				<h1> Вход в административный интерфейс онлайн-консультанта Webim</h1>
+
+				<form method="POST" action="" class="form-horizontal">
+
+					<div class="form-group">
+						<label for="inputEmail" class="col-xs-2 col-md-2 control-label">Email:</label>
+
+						<div class="col-xs-10 col-md-10">
+						    <input type="email" class="form-control" id="inputEmail" placeholder="Введите адрес электронной почты"> 
+						</div>
+
+  					</div>
+
+  					<div class="form-group">
+						<label for="inputPassword" class="col-xs-2 col-md-2 control-label">Пароль:</label>
+
+						<div class="col-xs-10 col-md-10">
+						      <input type="password" class="form-control" id="inputPassword" placeholder="Введите пароль">
+						</div>
+  					</div>
+
+  					<div class="form-group">
+						<label for="state" class="col-xs-2 col-md-2 control-label nostar">Статус:</label>
+						<div class="col-xs-10 col-md-10">	
+							<select class="form-control" name="state" id="state">
+								<option>Online</option>
+								<option>Offline</option>
+							</select>
+						</div>
+					</div>
+
+					<div class="form-group submit-button">
+						<div class="checkbox check">
+					    	<label>
+					      		<input type="checkbox">Запомнить
+					    	</label>
+				  		</div>
+
+						<button type="submit" class="btn btn-primary">Войти</button>
+					</div>
+					
+					<div class="form-group">
+						<a href="#" class="forgot-pass">Восстановить пароль</a>
+					</div>		
+				</form>	
+			</div>
+
+			<div class="center-block">
+				<a href="http://webim.ru/ios" class="apple"><img src="image/apple.png" alt="AppStore"></a>
+				<a href="http://webim.ru/android/" class="google"><img src="image/google.png" alt="GooglePlay"></a>
+			</div>
+		</div>
+	</header>	
+
+	<footer>
+		<div class="navbar">
+			<a href="https://webim.ru/" class="webim-ru">webim.ru</a>
+			<a href="https://webim.ru/">Webim 8.16.54</a>
+			<span>Защищенный режим</span>
+
+		</div>
+	</footer>
+
+	
+
+</body>
+</html>
